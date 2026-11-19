@@ -1,0 +1,15 @@
+{
+	"name": "adf-olist-raja",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "756cee6d-9e48-49b1-a77b-d5e3afa8c8b7",
+		"tenantId": "99e34304-7466-46e7-8878-712a837c0d24"
+	}
+}
