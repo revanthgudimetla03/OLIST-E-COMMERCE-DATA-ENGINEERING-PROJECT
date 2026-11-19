@@ -1,0 +1,58 @@
+{
+  "datasets": [
+    {
+      "source_type": "sqlserver",
+      "source_schema": "dbo",
+      "source_object": "orders",
+      "target_folder": "orders"
+    },
+    {
+      "source_type": "sqlserver",
+      "source_schema": "dbo",
+      "source_object": "order_items",
+      "target_folder": "order_items"
+    },
+    {
+      "source_type": "sqlserver",
+      "source_schema": "dbo",
+      "source_object": "order_payments",
+      "target_folder": "order_payments"
+    },
+    {
+      "source_type": "snowflake",
+      "source_schema": "RAW",
+      "source_object": "CUSTOMERS",
+      "target_folder": "customers"
+    },
+    {
+      "source_type": "snowflake",
+      "source_schema": "RAW",
+      "source_object": "PRODUCTS",
+      "target_folder": "products"
+    },
+    {
+      "source_type": "snowflake",
+      "source_schema": "RAW",
+      "source_object": "SELLERS",
+      "target_folder": "sellers"
+    },
+    {
+      "source_type": "csv",
+      "source_schema": "geolocation",
+      "source_object": "olist_geolocation_dataset.csv",
+      "target_folder": "geolocation"
+    },
+    {
+      "source_type": "csv",
+      "source_schema": "category_translation",
+      "source_object": "product_category_name_translation.csv",
+      "target_folder": "category_translation"
+    },
+    {
+      "source_type": "csv",
+      "source_schema": "order_reviews",
+      "source_object": "olist_order_reviews_dataset.csv",
+      "target_folder": "order_reviews"
+    }
+  ]
+}
